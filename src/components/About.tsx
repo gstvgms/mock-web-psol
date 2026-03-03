@@ -1,10 +1,10 @@
 import ScrollReveal from './ScrollReveal'
 
 const stats = [
-  { number: '26', label: 'Anos Lecionando', suffix: '+' },
-  { number: '3.200', label: 'Alunos Formados', suffix: '+' },
-  { number: '47', label: 'Comunidades Atendidas', suffix: '' },
-  { number: '18', label: 'Anos de Movimento Social', suffix: '+' },
+  { number: '10', label: 'Anos de Trabalho de Base', suffix: '+' },
+  { number: '47', label: 'Bairros Atendidos', suffix: '' },
+  { number: '3', label: 'Candidaturas a Vereador', suffix: 'x' },
+  { number: '2026', label: 'Assembleia Legislativa', suffix: '' },
 ]
 
 export default function About() {
@@ -48,39 +48,27 @@ export default function About() {
                 className="text-lg leading-relaxed"
                 style={{ color: '#FAFAFA', opacity: 0.9 }}
               >
-                <strong style={{ color: '#FFD600' }}>Carlos Eduardo</strong>, o{' '}
-                <strong style={{ color: '#E91E63' }}>Carlão</strong>, nasceu e cresceu na{' '}
-                <strong>Zona Sul de São Paulo</strong>. Filho de família de trabalhadores,
-                descobriu na educação seu caminho e sua arma de transformação.
+                <strong style={{ color: '#FFD600' }}>Jean Henrique</strong> nasceu e cresceu no{' '}
+                <strong>Sítio Cercado, Curitiba</strong>. Professor de Sociologia da rede pública,
+                dedica sua vida ao trabalho de base nos bairros periféricos desta cidade.
               </p>
               <p
                 className="text-lg leading-relaxed"
                 style={{ color: '#FAFAFA', opacity: 0.9 }}
               >
-                Professor de História da rede pública há mais de 26 anos, Carlão não apenas
-                ensina — ele <strong style={{ color: '#FFD600' }}>transforma vidas</strong>.
-                Sua sala de aula vai além das quatro paredes: ela está nas ruas, nas
-                ocupações, nos movimentos.
+                Há mais de 10 anos, Jean constrói pontes entre a periferia e a política.
+                Fundador do movimento{' '}
+                <strong style={{ color: '#E91E63' }}>&ldquo;Periferia Viva&rdquo;</strong>, que
+                acredita que a periferia tem soluções, tem lideranças, tem voz.
               </p>
               <p
                 className="text-lg leading-relaxed"
                 style={{ color: '#FAFAFA', opacity: 0.9 }}
               >
-                Fundador do{' '}
-                <strong style={{ color: '#E91E63' }}>&ldquo;Periferia Viva&rdquo;</strong>, movimento
-                que conecta cultura, educação e moradia em mais de 47 comunidades da Zona
-                Sul, Carlão construiu sua trajetória na base: escutando, organizando e
-                lutando junto com o povo.
-              </p>
-              <p
-                className="text-lg leading-relaxed"
-                style={{ color: '#FAFAFA', opacity: 0.9 }}
-              >
-                Três vezes candidato a vereador, cada campanha foi uma escola. Hoje, com
-                mais experiência, mais força e mais apoio do que nunca, Carlão dá o próximo
-                passo:{' '}
+                Três vezes candidato a vereador, sempre com a pauta periférica no centro.
+                Cada campanha foi uma escola. Agora é o momento de levar essas lutas para{' '}
                 <strong style={{ color: '#FFD600' }}>
-                  levar a voz da periferia para a Assembleia Legislativa
+                  a Assembleia Legislativa do Paraná
                 </strong>
                 .
               </p>
@@ -99,7 +87,7 @@ export default function About() {
                   className="text-sm mt-2"
                   style={{ color: '#FAFAFA', opacity: 0.6 }}
                 >
-                  — Prof. Carlão
+                  — Jean Henrique
                 </footer>
               </blockquote>
             </div>
@@ -161,7 +149,7 @@ export default function About() {
                   MOVIMENTO PERIFERIA VIVA
                 </p>
                 <p className="text-sm" style={{ color: '#FAFAFA', opacity: 0.7 }}>
-                  Fundado em 2008 · Zona Sul · SP
+                  Sítio Cercado · Curitiba · PR
                 </p>
               </div>
             </div>
@@ -171,3 +159,4 @@ export default function About() {
     </section>
   )
 }
+

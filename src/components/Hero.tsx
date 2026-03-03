@@ -80,7 +80,7 @@ export default function Hero() {
                 className="inline-block font-bebas text-sm tracking-[0.3em] px-3 py-1 mb-4"
                 style={{ background: '#E91E63', color: '#FAFAFA' }}
               >
-                PSOL 50 · DEPUTADO ESTADUAL
+                PSOL 50 · DEPUTADO ESTADUAL · CURITIBA
               </span>
             </div>
 
@@ -104,27 +104,19 @@ export default function Hero() {
               className="font-bebas text-2xl tracking-widest mb-8"
               style={{ color: '#FAFAFA' }}
             >
-              PROFESSOR CARLOS EDUARDO — CARLÃO
+              JEAN HENRIQUE — PROFESSOR E MILITANTE
             </p>
 
             <div className="flex items-center gap-4 mb-10">
               <div
-                className="font-bebas text-5xl px-4 py-2"
+                className="font-bebas text-2xl px-4 py-2"
                 style={{
                   background: '#E91E63',
                   color: '#FAFAFA',
                   clipPath: 'polygon(0 0, calc(100% - 10px) 0, 100% 100%, 10px 100%)',
                 }}
               >
-                50123
-              </div>
-              <div>
-                <p className="text-sm font-semibold" style={{ color: '#FFD600' }}>
-                  NÚMERO DO CANDIDATO
-                </p>
-                <p className="text-xs" style={{ color: '#FAFAFA', opacity: 0.7 }}>
-                  PSOL · Partido Socialismo e Liberdade
-                </p>
+                PSOL · PERIFERIA VIVA
               </div>
             </div>
 
@@ -195,13 +187,13 @@ export default function Hero() {
                     className="font-bebas text-4xl tracking-wider"
                     style={{ color: '#FFD600' }}
                   >
-                    CE
+                    JH
                   </p>
                   <p
                     className="font-bebas text-xs tracking-widest"
                     style={{ color: '#FAFAFA', opacity: 0.7 }}
                   >
-                    PROF. CARLÃO
+                    JEAN HENRIQUE
                   </p>
                 </div>
               </div>
@@ -214,7 +206,7 @@ export default function Hero() {
                   color: '#FAFAFA',
                 }}
               >
-                ZONA SUL · SÃO PAULO
+                SÍTIO CERCADO · CURITIBA
               </div>
             </div>
           </div>

@@ -23,13 +23,13 @@ export default function Footer() {
                 className="font-bebas text-3xl tracking-wider"
                 style={{ color: '#FFD600' }}
               >
-                CARLÃO
+                JEAN HENRIQUE
               </span>
               <span
                 className="font-bebas text-2xl px-2 py-0.5"
                 style={{ background: '#E91E63', color: '#FAFAFA' }}
               >
-                50123
+                PSOL
               </span>
             </div>
             <p
@@ -42,7 +42,7 @@ export default function Footer() {
               className="text-sm mt-2"
               style={{ color: '#FAFAFA', opacity: 0.5 }}
             >
-              Professor Carlos Eduardo — da periferia para a Assembleia.
+              Jean Henrique — da periferia de Curitiba para a Assembleia.
             </p>
           </div>
 
@@ -59,6 +59,7 @@ export default function Footer() {
                 { href: '#inicio', label: 'Início' },
                 { href: '#quem-sou', label: 'Quem Sou' },
                 { href: '#bandeiras', label: 'Bandeiras' },
+                { href: '#galeria', label: 'Galeria' },
                 { href: '#trajetoria', label: 'Trajetória' },
                 { href: '#apoie', label: 'Apoie' },
               ].map((link) => (
