@@ -35,15 +35,13 @@ const handler = NextAuth({
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        token.mustChangePassword = (user as any).mustChangePassword
+        token.mustChangePassword = user.mustChangePassword
       }
       return token
     },
     async session({ session, token }) {
       if (session.user) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (session.user as any).mustChangePassword = token.mustChangePassword
+        session.user.mustChangePassword = token.mustChangePassword
       }
       return session
     },

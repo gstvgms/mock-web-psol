@@ -3,13 +3,6 @@
 import { useState } from 'react'
 import ScrollReveal from './ScrollReveal'
 
-const socialLinks = [
-  { name: 'Instagram', href: '#', color: '#E91E63' },
-  { name: 'TikTok', href: '#', color: '#FFD600' },
-  { name: 'YouTube', href: '#', color: '#E91E63' },
-  { name: 'X / Twitter', href: '#', color: '#FFD600' },
-]
-
 type FormTab = 'contact' | 'volunteer' | 'report'
 
 const inputStyle = {
@@ -177,19 +170,12 @@ export default function Support() {
 
               <div>
                 <p className="font-bebas text-lg tracking-widest mb-4" style={{ color: '#FFD600' }}>
-                  SIGA NAS REDES SOCIAIS
+                  REDES SOCIAIS EM BREVE
                 </p>
-                <div className="grid grid-cols-2 gap-3">
-                  {socialLinks.map((social) => (
-                    <a
-                      key={social.name}
-                      href={social.href}
-                      className="flex items-center gap-3 p-3 font-bebas text-lg tracking-wider transition-all duration-200 hover:scale-105"
-                      style={{ background: '#242424', border: `2px solid ${social.color}`, color: social.color }}
-                    >
-                      {social.name}
-                    </a>
-                  ))}
+                <div className="p-4" style={{ background: '#242424', border: '2px solid #424242' }}>
+                  <p className="text-sm" style={{ color: '#FAFAFA', opacity: 0.6 }}>
+                    Em breve você poderá nos acompanhar nas redes sociais.
+                  </p>
                 </div>
               </div>
 
