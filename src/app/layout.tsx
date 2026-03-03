@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Providers from '@/components/providers/SessionProvider'
 
 export const metadata: Metadata = {
-  title: 'Carlão 50123 | Chegou a Nossa Vez',
-  description: 'Professor Carlos Eduardo — Carlão, candidato a Deputado Estadual pelo PSOL. Educação, moradia, cultura periférica. Chegou a nossa vez!',
-  keywords: ['PSOL', 'deputado estadual', 'Carlão', 'periferia', 'educação pública'],
+  title: 'Jean Henrique | Chegou a Nossa Vez',
+  description: 'Jean Henrique, professor de Sociologia e candidato a Deputado Estadual pelo PSOL. Da periferia de Curitiba para a Assembleia Legislativa. Chegou a nossa vez!',
+  keywords: ['PSOL', 'deputado estadual', 'Jean Henrique', 'periferia', 'Curitiba', 'educação pública'],
 }
 
 export default function RootLayout({
@@ -14,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }

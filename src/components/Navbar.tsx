@@ -6,6 +6,7 @@ const navLinks = [
   { href: '#inicio', label: 'Início' },
   { href: '#quem-sou', label: 'Quem Sou' },
   { href: '#bandeiras', label: 'Bandeiras' },
+  { href: '#galeria', label: 'Galeria' },
   { href: '#trajetoria', label: 'Trajetória' },
   { href: '#apoie', label: 'Apoie' },
 ]
@@ -55,13 +56,13 @@ export default function Navbar() {
               className="font-bebas text-2xl tracking-wider"
               style={{ color: '#FFD600' }}
             >
-              CARLÃO
+              JEAN HENRIQUE
             </span>
             <span
               className="font-bebas text-xl px-2 py-0.5"
               style={{ background: '#E91E63', color: '#FAFAFA' }}
             >
-              50123
+              PSOL
             </span>
           </div>
 
