@@ -137,7 +137,7 @@ export default function Timeline() {
                       <div
                         className="font-bebas text-3xl mb-1"
                         style={{
-                          color: event.final ? '#FFD600' : '#FFD600',
+                          color: '#FFD600',
                         }}
                       >
                         {event.year}
@@ -145,7 +145,7 @@ export default function Timeline() {
                       <h3
                         className="font-bebas text-xl tracking-wide mb-2 uppercase"
                         style={{
-                          color: event.final ? '#FAFAFA' : '#FAFAFA',
+                          color: '#FAFAFA',
                         }}
                       >
                         {event.title}
