@@ -104,37 +104,31 @@ body {
   clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%);
 }
 
-/* Scroll reveal animations */
+/* Scroll reveal animations — content always visible, slides in on scroll */
 .reveal {
-  opacity: 0;
-  transform: translateY(40px);
+  transform: translateY(30px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .reveal.visible {
-  opacity: 1;
   transform: translateY(0);
 }
 
 .reveal-left {
-  opacity: 0;
-  transform: translateX(-40px);
+  transform: translateX(-30px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .reveal-left.visible {
-  opacity: 1;
   transform: translateX(0);
 }
 
 .reveal-right {
-  opacity: 0;
-  transform: translateX(40px);
+  transform: translateX(30px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .reveal-right.visible {
-  opacity: 1;
   transform: translateX(0);
 }
 
